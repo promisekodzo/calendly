@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.myLogo {
+  width: 11rem;
+}
+.myNavBar {
+  padding: 1rem 20rem;
+  transition: all 0.7s ease-in;
+}
+.myNavLinks {
+  padding-left: 5rem;
+  color: black;
+}
+.myNavLinks a {
+  color: black !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 2rem !important;
+}
+#myNavbarToggler {
+  color: black;
+}
+
+.easySA {
+  padding-top: 4rem;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.easyAhead {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+.ind {
+  margin-bottom: 3rem;
+}
+.language-dropdown {
+  background-color: white;
+  border: 1px solid rgb(144, 144, 144);
+  width: 27rem;
+}
+.emailField {
+  margin-top: 1rem;
+  padding: 1.6rem;
+  width: 30rem;
+  border: 0;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  box-shadow: 0px 0px 4px 1px rgb(175, 175, 175);
+  background: #fff;
+}
+.submitBtn {
+  margin-top: 1rem;
+  position: absolute;
+  top: 397px;
+  right: 0;
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 1.7rem;
+  width: 10rem;
+  border-radius: 40px;
+}
+.submitBtn:hover {
+  background-color: rgb(78, 78, 78);
+  color: white;
+  transition: all 0.4s ease-in;
+}
+.homeImg {
+  height: 42rem;
+  width: 42rem;
+}
+.signUp-btn {
+  padding: 1.5rem;
+  width: 13rem;
+  border: 0;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+.start-free-btn {
+  padding: 1.4rem;
+  width: 13rem;
+  border: 0;
+  background-color: blue;
+  color: white;
+  border-radius: 40px;
+}
+.sales-contact-btn {
+  padding: 1.4rem;
+  width: 13rem;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 40px;
+}
+.sales-contact-btn2 {
+  padding: 1.4rem;
+  width: 13rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 40px;
+}
+.stremline-tasks {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 10rem 0;
+}
+
+.home-banner {
+  background-color: rgb(251, 251, 251);
+  padding: 1rem 1rem;
+}
+.individual-banner {
+  background: url('/img/Capture.PNG');
+  background-repeat: no-repeat;
+  height: 38rem;
+  padding: 3rem 1;
+  margin-bottom: 1.5rem;
+}
+.mainLink {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.mainLink a {
+  text-decoration: none;
+}
+.seeplans-btn {
+  padding: 1.5rem;
+  width: 12rem;
+  border: 0;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: 40px;
+}
+.find-Plans {
+  color: white;
+  padding-top: 10rem;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.users {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.companies img {
+  height: 1.7rem;
+  margin: 1rem 2rem;
+  opacity: 0.5;
+}
+.steps {
+  margin: 8rem;
+}
+.individualFooter a {
+  color: rgba(0, 0, 0, 0.753);
+}
+.individualFooter li {
+  list-style: none;
+  padding-bottom: 2rem;
+}
+.individualFooter {
+  color: black;
+}
+.stepsBlue {
+  background-color: blue;
+  color: white;
+  font-size: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 50%;
+}
+.steps h3 {
+  margin-left: 2.5rem;
+  margin-top: -1.2rem;
+  margin-bottom: 2rem;
+}
+.steps p {
+  margin-left: 2rem;
+}
+.line {
+  height: 11rem;
+  width: 1px;
+  background-color: rgba(138, 138, 138, 0.171);
+  position: absolute;
+  top: 1.6rem;
+  left: 25px;
+}
+.learnMore-btn {
+  font-weight: bold;
+  color: blue;
+}
+.myCards {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.myCardsent {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.solutions-card {
+  box-shadow: 1px 1px 20px 1px rgba(105, 105, 105, 0.418);
+  border-radius: 3%;
+  margin-bottom: 3rem;
+  height: 20rem;
+  padding-bottom: 3rem;
+}
+.solutions-cardent {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 20px 1px rgba(105, 105, 105, 0.418);
+  border-radius: 10%;
+  margin: 3rem 1rem;
+  /* height: 20rem; */
+  padding-bottom: 3rem;
+}
+.solutions-cardent h5 {
+  margin-left: 1.5rem;
+  color: blue;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+.solutions-cardent p {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.739);
+}
+.solutions-card a {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.solutions-card h5,
+p,
+a {
+  padding-left: 1rem;
+}
+.enterprise-banner {
+  background: url(/img/Partner_Background_for_Export.svg);
+  height: 17rem;
+  margin-top: 4rem;
+  padding: 3rem;
+}
+.enterprise-banner {
+  color: white;
+}
+.enterprise-companies img {
+  height: 2rem;
+  margin: 2rem;
+}
+@media screen and (max-width: 1250px) {
+  .myNavBar {
+    padding: 1rem 2rem;
+    transition: all 0.7s ease-in;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .submitBtn {
+    margin-top: 1rem;
+    position: absolute;
+    top: 420px;
+    right: 0;
+  }
+  .emailField {
+    width: 27rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .submitBtn {
+    margin-top: 1rem;
+    position: absolute;
+    top: 467px;
+    right: 0;
+  }
+  .emailField {
+    width: 19rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .submitBtn {
+    margin-top: 1rem;
+    position: absolute;
+    top: 397px;
+    right: 0;
+  }
+  .emailField {
+    width: 27rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .submitBtn {
+    margin-top: 1rem;
+    position: absolute;
+    top: 420px;
+    right: 0;
+  }
+  .emailField {
+    width: 27rem;
+  }
+}
